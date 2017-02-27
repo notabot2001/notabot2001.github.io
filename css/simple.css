@@ -1,0 +1,38 @@
+body {
+font-family: sans-serif;
+color: white;
+background-image: url('/home/feedhenry/Kasha/Pictures/turquoise.jpg');
+}
+
+h1{
+padding: 12px;
+background-color: black;
+color: white;
+border-radius: 10px;
+}
+
+ul {
+border-style: solid;
+border-width: 1px;
+padding: 10px;
+border-radius: 10px;
+background-color: black;
+}
+ul li {
+list-style-type: none;
+display: inline;
+margin-right: 10px;
+margin-left: 10px;
+}
+
+ul li selected:{
+color: white;
+text-decoration: none;
+}
+ul li a:hover {
+color: #99DDFF;
+text-decoration:underline;
+}
+
+
+
