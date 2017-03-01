@@ -11,7 +11,7 @@ color: white;
 border-radius: 10px;
 }
 
-ul {
+ul.menu {
 border-style: solid;
 border-width: 1px;
 padding: 10px;
@@ -25,9 +25,12 @@ margin-right: 10px;
 margin-left: 10px;
 }
 
-ul li selected:{
+ul li a:{
 color: white;
 text-decoration: none;
+}
+ul li.selected {
+color: yellow;
 }
 ul li a:hover {
 color: #99DDFF;
