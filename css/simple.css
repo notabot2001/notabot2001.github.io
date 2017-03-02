@@ -1,7 +1,10 @@
 body {
 font-family: sans-serif;
-color: white;
-background-image: url('/home/feedhenry/Kasha/Pictures/turquoise.jpg');
+background-image: url('/home/feedhenry/Kasha/Pictures/minimalist.gif');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+
 }
 
 h1{
