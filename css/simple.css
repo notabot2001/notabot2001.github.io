@@ -1,6 +1,6 @@
 body {
 font-family: sans-serif;
-background-image: url('/home/feedhenry/Kasha/Pictures/nicebackground.jpg');
+background-image: url('/home/feedhenry/Kasha/Pictures/nightstar.gif');
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: cover;
@@ -15,17 +15,23 @@ border-radius: 10px;
 }
 
 ul.menu {
+list-style-type: none;
+display: block;
 border-style: solid;
 border-width: 1px;
 padding: 10px;
 border-radius: 10px;
-background-color: black;
+background-color: white;
 }
-ul li {
+ul.paragraph {
 list-style-type: none;
-display: inline;
+display: list-item;
 margin-right: 10px;
-margin-left: 10px;
+margin-left: -40px;
+}
+ul.picture {
+border-style: solid;
+border-image-width: 2px;
 }
 
 ul li a:{
@@ -37,8 +43,52 @@ color: yellow;
 }
 ul li a:hover {
 color: #99DDFF;
-text-decoration:underline;
+text-decoration: underline;
 }
+
+article {
+float: left;
+border-style: solid;
+border-width: 1px;
+margin-right: 1em;
+margin-bottom: 1em;
+padding: 1em;
+border-radius: 1em;
+background-color:#FFDEAD;
+background-blend-mode: overlay;
+}
+aside{
+float: left;
+border-style: solid;
+border-width: 1px;
+padding: 1em;
+border-radius: 1em;
+background-color: #ADD8E8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
